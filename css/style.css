@@ -118,6 +118,7 @@ main{
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
+  padding-bottom: 10em;
 }
 .main-left, .main-right{
     display: flex;
@@ -223,4 +224,71 @@ main{
 }
 .card-two > .card-description > .card-description-more {
     padding-top: 4em;
+}
+.our-clients{
+    background: #5A98D0;
+    border-radius: 200px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.our-clients-description{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 80%;
+    padding: 6em 0em 0em 6em;
+}
+.our-clients-description-left{
+    font-family: "Gilroy Light";
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    font-weight: 1000;
+    width: 300px;
+}
+.our-clients-description-right{
+    font-family: "Gilroy Light";
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+    width: 540px;
+    margin-left: 10em;
+}
+.our-clients-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 60%;
+    padding: 8em 0em 8em 0em;
+}
+.out-clients-card{
+    width: 25%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Gilroy Light";
+    font-size: 20px;
+    line-height: 46px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.out-clients-card:nth-child(1), .out-clients-card:nth-child(2), .out-clients-card:nth-child(3), .out-clients-card:nth-child(4){
+    border-bottom: 1px solid #ffffff73;
+}
+.out-clients-card:nth-child(1), .out-clients-card:nth-child(2   ), .out-clients-card:nth-child(3), .out-clients-card:nth-child(5), .out-clients-card:nth-child(6), .out-clients-card:nth-child(7){
+    border-right: 1px solid #ffffff73;
+}
+.out-clients-card:nth-child(8){
+    background: #1f3f6852;
+
 }
