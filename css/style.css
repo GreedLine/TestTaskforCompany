@@ -422,3 +422,25 @@ footer{
     justify-content: flex-start;
     align-items: center;
 }
+.footer-column{
+    list-style-type: none;
+}
+.footer-column{
+    font-family: "Gilroy Light";
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.footer-column > ul:nth-child(1){
+    font-family: "Gilroy Light";
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    font-weight: 1000;
+    padding-bottom: 1em;
+}
+.footer-info-main-column-right{
+    padding-right: 5em;
+}
