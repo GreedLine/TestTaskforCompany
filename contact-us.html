@@ -6,7 +6,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
   integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
-  <script src="app.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script src="ajax.js"></script>
 </head>
 <body>
   <header class="header-contact-us">
@@ -55,10 +56,11 @@
         <div class="form-text">Full Name</div>
         <input type="text" name="" placeholder="Your Name">
         <div class="form-text">Email</div>
-        <input type="text" name="" placeholder="Your Email">
+        <input type="email" name="" placeholder="Your Email">
+        <span class="form__error">Это поле должно содержать E-Mail в формате example@site.com</span>
         <div class="form-text">Message</div>
         <textarea class="form-textarea" name="" placeholder="Your Message"></textarea>
-        <input type="submit" class="form-submit" name=""  value="SUBMIT">
+        <input type="submit" class="form-submit" id="contact-us-submit"name=""  value="SUBMIT">
       </form>
     </div>
   </div>
