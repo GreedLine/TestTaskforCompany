@@ -39,3 +39,16 @@
 a:hover{
     text-decoration: none;
 }
+.form-succesfully{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    font-weight: 1000;
+    padding: 1.5em 0em;
+    text-align: center;
+}
+.succesfully{
+    top: 35%;
+    display: none;
+}

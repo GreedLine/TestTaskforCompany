@@ -1,6 +1,7 @@
 $(document).ready(function($) {
 	$('.popup-open').click(function() {
 		$('.popup-fade').fadeIn();
+		$('.popup-main').fadeIn();
 		return false;
 	});	
 	
@@ -8,7 +9,7 @@ $(document).ready(function($) {
 		$(this).parents('.popup-fade').fadeOut();
 		return false;
 	});		
- 
+
 	$(document).keydown(function(e) {
 		if (e.keyCode === 27) {
 			e.stopPropagation();

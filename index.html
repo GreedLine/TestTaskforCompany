@@ -8,8 +8,6 @@
   <script src="https://yandex.st/jquery/2.1.1/jquery.min.js"></script>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/style-modal.css">
-  <script src="js/ajax.js"></script>
-  <script src="js/modal.js"></script>
 </head>
 <body>
   <header class="header-index">
@@ -144,24 +142,29 @@
 </footer>
 
 <div class="popup-fade">
-  <div class="popup">
+  <div class="popup popup-main">
     <a class="popup-close" href="#">CLOSE</a>
     <div class="main-contact-us-top-right">
-      <form class="contact-us-form">
+      <form class="contact-us-form" id="contact-us-form" name="contact-us-form-name">
         <div class="main-contact-us-top-left-head">SEND US MESSAGE</div>
         <div class="form-text">Full Name</div>
-        <input type="text" name="" placeholder="Your Name">
+        <input type="text" name="contact-us-form-name" id="contact-us-form-name" placeholder="Your Name">
         <div class="form-text">Email</div>
-        <input type="email" name="" placeholder="Your Email">
+        <input type="email" name="contact-us-form-email" id="contact-us-form-email" placeholder="Your Email">
         <span class="form__error">Это поле должно содержать E-Mail в формате example@site.com</span>
         <div class="form-text">Message</div>
-        <textarea class="form-textarea" name="" placeholder="Your Message"></textarea>
-        <input type="submit" class="form-submit" id="contact-us-submit"name=""  value="SUBMIT">
+        <textarea class="form-textarea" name="contact-us-form-message" placeholder="Your Message"></textarea>
+        <input type="submit" class="form-submit" id="contact-us-submit"name="contact-submit"  value="SUBMIT">
       </form>
     </div>
-  </div>    
-
+  </div>
+  <div class="popup succesfully">
+    <div class="main-contact-us-top-right">
+      <div class="form-succesfully">Application sent successfully!</div>
+    </div>
+  </div>        
 </div>
-
+<script src="js/ajax.js"></script>
+<script src="js/modal.js"></script>
 </body>
 </html>
