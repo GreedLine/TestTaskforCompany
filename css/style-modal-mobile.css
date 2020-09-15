@@ -1,0 +1,22 @@
+@media only screen and (max-device-width: 480px) {
+    .main-contact-us-top-right{
+        width: 750px;
+        font-size: 2em;
+    }
+    .main-contact-us-top-left-head,  .form-text{
+        font-size: 1em;
+    }
+    .popup-close{
+        font-size: 2em;
+        top: 5em;
+        right: 5.5em;
+    }
+    .form-textarea{
+        min-height: 300px;
+        max-height: 300px;
+    }
+    .form-succesfully{
+        font-size: 2em;
+        line-height: 1.5em;
+    }
+}

@@ -1,0 +1,65 @@
+@media only screen and (max-device-width: 480px) {
+    .info-text{
+        padding: 1em 0em 7em 2em;
+    }
+    .info-text-head{
+     font-size: 68px;
+     width: 750px;
+
+ }
+ .info-text-description{
+    padding-top: 1em;
+    padding-bottom: 3em;
+    width: 450px;
+    padding-left: .3em;
+    font-size: 24px;
+}
+.info-text-button{
+    margin: 16em 0em 0em .5em;
+    font-size: 20px;
+}
+.main-left, .main-right{
+    width: 45%;
+}
+.main-text{
+    padding: 0em 0em 4em 2em;
+}
+.our-clients-cards{
+    width: 80%;
+}
+.our-clients-description{
+    padding: 6em 0em 0em 0em;
+}
+.our-clients-description-left{
+    width: 500px;
+}
+.our-clients-description-right{
+    margin-left: 0em;
+}
+.out-clients-card{
+    text-align: center;
+    font-size: 24px;
+}
+.footer-main-right{
+    padding: 1.5em 6em;
+}
+.footer-main, .footer-info{
+    width: 90%;
+}
+.footer-main-head, .footer-info-main{
+    padding-left: 8em;
+}
+.footer-main-left-bottom{
+    padding: 2em 0em;
+    font-size: 20px;
+}
+.footer-column{
+    width: 150px;
+}
+.main-contact-us-main{
+    width: 100%;
+}
+.main-contact-us-top-right{
+    width: auto;
+}
+}
