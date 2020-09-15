@@ -6,9 +6,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
   integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style-mobile.css">
   <script src="https://yandex.st/jquery/2.1.1/jquery.min.js"></script>
-  <script src="js/ajax.js"></script>
-  <script src="js/modal.js"></script>
 </head>
 <body>
   <header class="header-contact-us">
@@ -51,17 +50,17 @@
          <div class="main-contact-us-top-left-row-right">hello.afrian@gmail.com</div>
        </div>
      </div>
-     <div class="main-contact-us-top-right">
-      <form class="contact-us-form">
+     <div class="main-contact-us-top-right" id="modal-window">
+      <form class="contact-us-form" id="contact-us-form" name="contact-us-form-name">
         <div class="main-contact-us-top-left-head">SEND US MESSAGE</div>
         <div class="form-text">Full Name</div>
-        <input type="text" name="" placeholder="Your Name">
+        <input type="text" name="contact-us-form-name" id="contact-us-form-name" placeholder="Your Name">
         <div class="form-text">Email</div>
-        <input type="email" name="" placeholder="Your Email">
+        <input type="email" name="contact-us-form-email" id="contact-us-form-email" placeholder="Your Email">
         <span class="form__error">Это поле должно содержать E-Mail в формате example@site.com</span>
         <div class="form-text">Message</div>
-        <textarea class="form-textarea" name="" placeholder="Your Message"></textarea>
-        <input type="submit" class="form-submit" id="contact-us-submit"name=""  value="SUBMIT">
+        <textarea class="form-textarea" name="contact-us-form-message" placeholder="Your Message"></textarea>
+        <input type="submit" class="form-submit" id="contact-us-submit" name="contact-submit"  value="SUBMIT">
       </form>
     </div>
   </div>
@@ -128,7 +127,8 @@
   </div>
 </footer>
 
-
+  <script src="js/ajax.js"></script>
+  <script src="js/modal.js"></script>
 
 </body>
 </html>
