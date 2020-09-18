@@ -1,4 +1,16 @@
 @media only screen and (max-device-width: 480px) {
+    .logo-left, .logo-right, .logo-foot-left{
+        width: 50px;
+        height: 50px;
+    }
+    .logo-right{
+        right: 25px;
+    }
+    .menu{
+        width: 50px;
+        height: 36px;
+        background-size: cover;
+    }
     .info-text{
         padding: 1em 0em 7em 2em;
     }
@@ -12,11 +24,12 @@
     padding-bottom: 3em;
     width: 450px;
     padding-left: .3em;
-    font-size: 24px;
+    font-size: 32px;
+    line-height: 44px;
 }
 .info-text-button{
     margin: 16em 0em 0em .5em;
-    font-size: 20px;
+    font-size: 32px;
 }
 .main-index{
     flex-direction: column;
@@ -63,29 +76,54 @@
 }
 .our-clients-description{
     padding: 6em 0em 0em 0em;
+    flex-direction: column;
 }
 .our-clients-description-left{
     width: 500px;
+    font-size: 48px;
 }
 .our-clients-description-right{
     margin-left: 0em;
+    font-size: 36px;
+    padding-top: 1em;
+    width: auto;
+    line-height: 44px;
 }
 .out-clients-card{
     text-align: center;
     font-size: 24px;
+    padding: 4em 0em;
 }
 .footer-main-right{
-    padding: 1.5em 6em;
+    padding: 1em 2em;
+    font-size: 48px;
+    line-height: 48px;
 }
 .footer-main, .footer-info{
-    width: 90%;
+    width: 100%;
+}
+.footer-main-head{
+    width: 80%;
+    flex-direction: column;
+    align-items: stretch;
+}
+.footer-main{
+    padding: 4em 0em;
+}
+.footer-main-left-head{
+    font-size: 48px;
+    width: auto;
+}
+.popup-open{
+    margin-right: 3em;
 }
 .footer-main-head, .footer-info-main{
     padding-left: 8em;
 }
 .footer-main-left-bottom{
     padding: 2em 0em;
-    font-size: 20px;
+    line-height: 44px;
+    font-size: 36px;
 }
 .footer-column{
     width: 150px;
@@ -95,5 +133,26 @@
 }
 .main-contact-us-top-right{
     width: auto;
+}
+.footer-info-main{
+    width: auto;
+}
+.footer-info-main-column-left-row-right{
+    font-size: 20px;
+}
+.footer-column{
+    width: auto;
+}
+.footer-info-main-column-right, .footer-info-main-column-center{
+    margin-top: .5em;
+}
+.footer-column > ul{
+    font-size: 20px;
+}
+.footer-column > ul:nth-child(1), .footer-info-main-column-left-head-right{
+    font-size: 32px;
+}
+.footer-info-main-column-left-foot{
+    font-size: 24px;
 }
 }

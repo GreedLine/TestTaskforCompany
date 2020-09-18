@@ -70,7 +70,7 @@
 .menu{
     width: 24px;
     height: 16px;
-    background: url(../images/icon-menu.png);
+    background: url(../images/icon-menu.png) no-repeat;
 }
 .info{
     display: flex;
