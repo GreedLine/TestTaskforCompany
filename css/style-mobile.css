@@ -3,11 +3,11 @@
         padding: 1em 0em 7em 2em;
     }
     .info-text-head{
-     font-size: 68px;
-     width: 750px;
+       font-size: 68px;
+       width: 750px;
 
- }
- .info-text-description{
+   }
+   .info-text-description{
     padding-top: 1em;
     padding-bottom: 3em;
     width: 450px;
@@ -18,11 +18,45 @@
     margin: 16em 0em 0em .5em;
     font-size: 20px;
 }
+.main-index{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.main-left{
+    padding: 6em 0em 0em 0em;
+}
 .main-left, .main-right{
-    width: 45%;
+    width: 100%;
 }
 .main-text{
-    padding: 0em 0em 4em 2em;
+    padding: 0em 0em 1em 0em;
+    width: 90%;
+    line-height: 60px;
+    font-size: 64px;
+}
+.card-one, .card-two, .card-three{
+    width: 90%;
+    height: auto;
+}
+.card-img > img{
+    width: 300px;
+}
+.card-description-head{
+    font-size: 48px;
+    padding-bottom: 1em;
+    line-height: 50px;
+}
+.card-description-text{
+    font-size: 36px;
+    line-height: 36px;
+}
+.card-description-more{
+    padding-top: 5em;
+    padding-bottom: 3em;
+}
+.card-description-more-left{
+    font-size: 48px;
 }
 .our-clients-cards{
     width: 80%;
